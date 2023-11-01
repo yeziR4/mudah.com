@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Roboto:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000000;
+  overflow: hidden;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  width: 300px;
+  height: 400px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+  filter: blur(1px);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: self-start;
+}
+
+.swiper-slide-active {
+  filter: blur(0px);
+}
+
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active {
+  background: #fff;
+}
+
+.swiper-slide span {
+  text-transform: uppercase;
+  color: #fff;
+  background: #1b7402;
+  padding: 7px 18px 7px 25px;
+  display: inline-block;
+  border-radius: 0 20px 20px 0px;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.swiper-slide--one span {
+  background: #62667f;
+}
+
+.swiper-slide--two span {
+  background: #087ac4;
+}
+
+.swiper-slide--three span {
+  background: #b45205;
+}
+
+.swiper-slide--four span {
+  background: #087ac4;
+}
+
+.swiper-slide h2 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.4;
+  margin-bottom: 15px;
+  padding: 25px 45px 0 25px;
+}
+
+.swiper-slide p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  padding: 0 25px 35px 25px;
+}
+
+.swiper-slide svg {
+  color: #fff;
+  width: 22px;
+  height: 22px;
+  margin-right: 7px;
+}
+
+.swiper-slide--one {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("image/IMG_5429.jpg") no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--two {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("image/IMG_5430.jpg") no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--three {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("image/IMG_5431.jpg") no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--four {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("image/IMG_5432.jpg") no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--five {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("image/IMG_5434.jpg") no-repeat 50% 50% / cover;
+}
+
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right {
+  background-image: none;
+}
+
+footer.footer {
+  *zoom: 1;
+  background: #000000;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  bottom: 0;
+  min-height: 120px;
+  padding: 60px 20px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+footer.footer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+footer.footer .footer_icons {
+  margin: 2px auto;
+}
+
+footer.footer .footer_icons li {
+  display: inline-block;
+  font-size: 0;
+  margin: 0 10px;
+}
+
+footer.footer .footer_icons li a {
+  color: #E4E4E4;
+  display: block;
+  font-size: 12px;
+}
+
+footer.footer .footer_icons li a svg {
+  -moz-transition: linear 0.2s;
+  -o-transition: linear 0.2s;
+  -webkit-transition: linear 0.2s;
+  transition: linear 0.2s;
+  fill: #E4E4E4;
+  height: 30px;
+  width: 30px;
+}
+
+footer.footer .footer_icons li a:hover svg {
+  opacity: 0.6;
+}
+
+footer.footer .footer_pages {
+  font-size: 0;
+  margin: 0px auto;
+  max-width: 640px;
+  text-align: center;
+  width: 100%;
+}
+
+footer.footer .footer_pages li {
+  display: inline-block;
+}
+
+footer.footer .footer_pages li a {
+  -moz-transition: linear 0.2s;
+  -o-transition: linear 0.2s;
+  -webkit-transition: linear 0.2s;
+  transition: linear 0.2s;
+  color: #E4E4E4;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+}
+
+footer.footer .footer_pages li a:hover {
+  opacity: 0.6;
+}
+
+footer.footer .footer_credit {
+  color: #E4E4E4;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+footer.footer .footer_credit .credit a {
+  color: #E4E4E4;
